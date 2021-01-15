@@ -1,5 +1,5 @@
 $(function(){
-    /* Trigger */
+    // Trigger
     $('.trigger').click(function(){
         $(this).toggleClass('active')
         $('.gnb').toggleClass('active')
@@ -9,8 +9,18 @@ $(function(){
         $('.trigger').removeClass('active')
     })
 
-    /* Smooth Scrolling */
-    $('.menu a').click(function(e){
+    // Smooth Scrolling
+    $('.menu a, .gototop').click(function(e){
         $.scrollTo(this.hash || 0, 900)
+    })
+
+    // Change CSS with Scroll
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 50) {
+            $('header, .gototop').addClass('active')
+        }
+        else {
+            $('header, .gototop').removeClass('active')
+        }
     })
 })
