@@ -43,8 +43,11 @@ body {
 /* Header */
 header {
   position: fixed; /*mobile 버전에서 fixed*/
+<<<<<<< HEAD
   top: 0;
   left: 0;
+=======
+>>>>>>> cf8f5934edb1cdb04ee7eabb0893e853d374a608
   width: 100%;
 }
 .gnb-inner{
