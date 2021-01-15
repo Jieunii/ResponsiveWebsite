@@ -43,11 +43,8 @@ body {
 /* Header */
 header {
   position: fixed; /*mobile 버전에서 fixed*/
-<<<<<<< HEAD
   top: 0;
   left: 0;
-=======
->>>>>>> cf8f5934edb1cdb04ee7eabb0893e853d374a608
   width: 100%;
 }
 .gnb-inner{
@@ -76,4 +73,24 @@ header {
 }
 .trigger{
   display: none;
+}
+
+/* Hiring button */
+.btn-hiring {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  color: #fff;
+  background-color: #000;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.38);
+  transition: 0.5s;
+}
+.btn-hiring .fa {
+  transform: rotateY(180deg);
+  margin-right: 5px;
+}
+.btn-hiring:active{
+  transform: scale(0);
 }

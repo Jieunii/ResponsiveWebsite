@@ -3,7 +3,7 @@
     scroll-behavior: smooth;
   } */
 
-    /* Entire Layout */
+  /* Entire Layout */
   .cd-section {
     height: auto;
   }
@@ -19,6 +19,7 @@
   /* Header */
   header {
     transition: 0.5s;
+    z-index: 100;
   }
   header.active {
     background-color: #fff;
@@ -112,5 +113,9 @@
   .gototop.active {
     opacity: 1;
     transform: translateY(0);
+  }
+  .btn-hiring {
+    right: 20px;
+    bottom: 20px;
   }
 }
