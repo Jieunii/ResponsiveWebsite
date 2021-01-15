@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+  /* html {
+    scroll-behavior: smooth;
+  } */
     /* Entire Layout */
   .cd-section {
     height: auto;
