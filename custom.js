@@ -32,4 +32,15 @@ $(function(){
     slidesToShow: 4,
     slidesToScroll: 2,
   })
+
+  // slick.js : project photo
+  $('.project-photo').slick({
+    dots: true,
+    infinte: true,
+    speed: 500,
+    fade: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cseEase: 'linear'
+  })
 })
