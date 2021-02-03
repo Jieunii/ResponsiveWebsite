@@ -473,12 +473,12 @@ input[id=tab3]:checked ~ .tabs {
   margin: 0;
 }
 
-/* ################ Section : awards ################ */
+/* ################ Section : Awards ################ */
 .awards-inner {
   height: 100%;
   border: 1px solid #ddd;
 }
-.awards-inner > div{
+.awards-inner > div {
   float: left;
   width: 50%;
   height: 100%;

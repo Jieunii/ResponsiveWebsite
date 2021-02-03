@@ -126,8 +126,8 @@
   #home,
   #about,
   #project,
-  /* #plan, */
-  #awards,
+  #plan,
+  /* #awards, */
   #location,
   #contact {
     display: none;
@@ -191,5 +191,26 @@
   }
   .plan-heading {
     padding-right: 0;
+  }
+
+  /* ################ Section : Awards ################ */
+  .awards-inner {
+    height: auto;
+  }
+  .awards-inner > div {
+    float: none;
+    width: 100%;
+  }
+  .about-heading,
+  .victory-jump img {
+    position: static;
+    transform: none;
+    padding: 40px 20px;
+  }
+  .about-heading {
+    width: 100%;
+  }
+  .victory-jump {
+    text-align: center;
   }
 }
