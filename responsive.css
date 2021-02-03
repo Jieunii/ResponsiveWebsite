@@ -306,7 +306,7 @@
   }
   .hiring-slogan p::before  {
     top: -120px;
-    left: -40px;
+    left: -10px !important;
   }
   .hiring-contact ul {
     display: block;
@@ -318,5 +318,20 @@
     font-size: 24px;
     right: 20px;
     top: 35px;
+  }
+
+  /* ################ SubPage : Project Detail ################ */
+  .hiring-main.project-main1,
+  .hiring-main.project-main2,
+  .hiring-main.project-main3 {
+    height: 70vh;
+  }
+  .hiring-main.project-main1 .hiring-heading h1,
+  .hiring-main.project-main2 .hiring-heading h1,
+  .hiring-main.project-main3 .hiring-heading h1 {
+    font-size: 40px;
+  }
+  .photo.project-info {
+    font-size: 19px;
   }
 }
