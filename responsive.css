@@ -128,8 +128,8 @@
   #project,
   #plan,
   #awards,
-  /* #location, */
-  #contact {
+  #location/*,
+  #contact*/ {
     display: none;
   }
 
@@ -229,5 +229,19 @@
     float: none;
     width: 100%;
     padding: 20px;
+  }
+
+  /* ################ Section : Contact ################ */
+  .contact-inner {
+    height: auto;
+  }
+  .contact-feature {
+    width: 100%;
+    position: static;
+    transform: none;
+  }
+  .contact-feature > div {
+    float: none;
+    width: 100%;
   }
 }
