@@ -127,8 +127,8 @@
   #about,
   #project,
   #plan,
-  /* #awards, */
-  #location,
+  #awards,
+  /* #location, */
   #contact {
     display: none;
   }
@@ -212,5 +212,22 @@
   }
   .victory-jump {
     text-align: center;
+  }
+
+  /* ################ Section : Location ################ */
+  .location-inner {
+    height: auto;
+  }
+  .feature {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+  .feature > div {
+    float: none;
+    width: 100%;
+    padding: 20px;
   }
 }
