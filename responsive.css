@@ -57,7 +57,6 @@
   /* Trigger */
   .trigger {
     display: block;
-    border: 1px solid red;
     width: 24px;
     height: 14px;
     position: absolute;
@@ -269,5 +268,55 @@
   .contact-feature > div {
     float: none;
     width: 100%;
+  }
+
+  /* ################ SubPage : Hiring ################ */
+  .hiring-main {
+    height: 300px;
+  }
+  .hiring-heading {
+    width: 100%;
+    top: 65%;
+  }
+  .hiring-heading h1 {
+    font-size: 32px;
+    margin-top: 20px;
+  }
+  .hiring-info {
+    padding: 20px;
+  }
+  .hiring-info > div {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+  .center-child {
+    position: static;
+    transform: none;
+    width: 100%;
+  }
+  .center-child h2 {
+    font-size: 22px;
+  }
+  .hiring-slogan {
+    padding: 50px 0;
+  }
+  .hiring-slogan p {
+    font-size: 26px;
+  }
+  .hiring-slogan p::before  {
+    top: -120px;
+    left: -40px;
+  }
+  .hiring-contact ul {
+    display: block;
+    width: 100%;
+  }
+
+  /* Featherlight Mobile CSS */
+  .featherlight .featherlight-close-icon {
+    font-size: 24px;
+    right: 20px;
+    top: 35px;
   }
 }
