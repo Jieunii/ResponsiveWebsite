@@ -69,6 +69,6 @@ $(function(){
     fade: true,
     autoplay: true,
     autoplaySpeed: 2000,
-    cseEase: 'linear'
+    cssEase: 'linear'
   })
 })
