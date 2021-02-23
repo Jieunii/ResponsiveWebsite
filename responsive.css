@@ -183,6 +183,9 @@
   .project-info p {
     position: relative;
   }
+  .project-info ul {
+    margin: 20px 0;
+  }
   .detail div {
     font-size: 13px;
   }
@@ -214,6 +217,7 @@
   .plan-photo img {
     width: 100%;
     height: auto;
+    margin-top: 15px;
   }
   .plan-heading {
     padding-right: 0;
@@ -255,6 +259,9 @@
     float: none;
     width: 100%;
     padding: 20px;
+  }
+  .service-item {
+    margin: 0;
   }
 
   /* ################ Section : Contact ################ */
@@ -334,5 +341,6 @@
   }
   .photo.project-info {
     font-size: 19px;
+    padding: 0;
   }
 }

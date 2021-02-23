@@ -345,7 +345,7 @@ input[id=tab3]:checked ~ .tabs {
 }
 .project-info ul {
   line-height: 2em;
-  margin: 50px 0;
+  margin: 40px 0;
 }
 .project-info ul li:before {
   content:"\f105";
@@ -428,6 +428,7 @@ input[id=tab3]:checked ~ .tabs {
 .plan-heading p {
   font-size: 16px;
   line-height: 1.6em;
+  margin: 0;
 }
 .plan-photo {
   width: 30%;
@@ -537,6 +538,7 @@ hr.bar {
 .location-inner {
   background: url(images/background-location.jpg) no-repeat center;
   height: 100%;
+  position: relative;
 }
 .location-inner:before { /* before, after는 inline 요소라 크기를 가질 수 없다. */
   content: '';
@@ -546,7 +548,7 @@ hr.bar {
   position: absolute;
 }
 .feature {
-  width: 60%;
+  width: 70%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -935,7 +937,7 @@ hr.bar {
   position: absolute;
   z-index: 9999;
   top: 30px;
-  right: 50px;
+  right: 70px;
   line-height: 25px;
   width: 25px;
   cursor: pointer;
